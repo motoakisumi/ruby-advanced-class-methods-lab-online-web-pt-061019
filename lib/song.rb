@@ -25,7 +25,13 @@ class Song
   end
   
   def self.find_or_create_by_name(title)
-    if self.find_by_name(title)
+    if self.find_by_name(title) == nil
+      song = self.create
+      song.name = name
+      song
+    else
+      self
+    end
 
   def self.all
     @@all
