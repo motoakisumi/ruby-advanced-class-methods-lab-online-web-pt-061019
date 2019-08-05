@@ -4,8 +4,7 @@ class Song
 
   def self.create(song)
     @song = song
-    self.class
-
+    self.class.all << self
   end
 
   def self.all
