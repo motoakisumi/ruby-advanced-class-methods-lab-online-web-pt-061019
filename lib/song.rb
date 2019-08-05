@@ -40,7 +40,8 @@ class Song
   
   def self.new_from_filename(title)
     song = self.new_by_name(title)
-    song.name.
+    array = song.name.split('-')
+    
     
 
   def self.all
