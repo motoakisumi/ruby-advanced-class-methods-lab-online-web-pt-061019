@@ -34,7 +34,7 @@ class Song
   end
   
   def self.alphabetical
-    self.sort
+    self.
   end
 
   def self.all
