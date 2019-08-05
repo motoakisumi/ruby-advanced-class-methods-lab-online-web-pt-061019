@@ -38,8 +38,9 @@ class Song
     sorted
   end
   
-  def self.new_from_filename
-    song = self.new
+  def self.new_from_filename(title)
+    song = self.new_by_name(title)
+    
     
 
   def self.all
