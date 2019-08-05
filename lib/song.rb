@@ -32,6 +32,7 @@ class Song
     else
       self
     end
+  end
 
   def self.all
     @@all
