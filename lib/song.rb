@@ -45,10 +45,7 @@ class Song
     song.artist_name = array[0]
     song
   end
-  
     
-    
-
   def self.all
     @@all
   end
