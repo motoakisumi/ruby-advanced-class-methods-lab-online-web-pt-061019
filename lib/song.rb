@@ -13,7 +13,13 @@ class Song
     song.name = title
     song
   end
-  
+
+  def self.create_by_name(name)
+    song = self.create
+    song.name = title
+    song
+  end
+
   def self.all
     @@all
   end
