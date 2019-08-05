@@ -30,7 +30,7 @@ class Song
       song.name = name
       song
     else
-      self
+      song
     end
   end
 
