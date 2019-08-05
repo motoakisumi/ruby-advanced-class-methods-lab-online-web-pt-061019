@@ -52,6 +52,7 @@ class Song
     song.name = array[1].chomp ".mp3"
     song.artist_name = array[0]
     song   
+  end
   
   def self.all
     @@all
