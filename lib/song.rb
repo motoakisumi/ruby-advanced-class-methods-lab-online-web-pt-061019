@@ -27,7 +27,7 @@ class Song
   def self.find_or_create_by_name(title)
     if self.find_by_name(title) == nil
       song = self.create
-      song.name = name
+      song.name = title
       song
     else
       song
