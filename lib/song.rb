@@ -4,7 +4,8 @@ class Song
 
   def self.create(song)
     object = self.new
-    object.song
+    object.song = song
+    
 
   end
 
