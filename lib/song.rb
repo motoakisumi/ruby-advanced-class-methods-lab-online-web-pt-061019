@@ -5,8 +5,7 @@ class Song
   def self.create(song)
     object = self.new
     object.song = song
-    
-
+    @@ all << object
   end
 
   def self.all
